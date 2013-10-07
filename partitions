@@ -1,0 +1,7 @@
+# partition table of /dev/sdd
+unit: sectors
+
+/dev/sdd1 : start=     2048, size=   253952, Id=83
+/dev/sdd2 : start=   256000, size=  2097152, Id=83
+/dev/sdd3 : start=  2353152, size=  2867200, Id=83, bootable
+/dev/sdd4 : start=  5220352, size=  2668544, Id=83
