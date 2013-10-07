@@ -15,6 +15,8 @@ linuxmint.com.
 Then i used unetbootin to write the iso images to partitions. 
 
 Continuing to do the grub configuration. See /boot/grub/grub.cfg.
+* Create grub config with the first grub command.
+* Writing the configuration to the device with the second command. 
 
 The files in this repo is the grub partition. 
 
