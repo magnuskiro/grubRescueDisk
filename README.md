@@ -22,10 +22,10 @@ The files in this repo is the grub partition.
 
 ## Grub commands
 * Creates a separate config folder on given device. 
- sudo grub-mkconfig -o /media/usb/boot/grub/grub.cfg
+	* `sudo grub-mkconfig -o /media/usb/boot/grub/grub.cfg`
 
 * Installs grub on the MBR of the selected device. 
- sudo grub-install --root-directory=/media/usb /dev/sdd
+	* `sudo grub-install --root-directory=/media/usb /dev/sdd`
 
 ## Useful commands and one-liners.
 * mount - edit - unmount : for testing
@@ -39,11 +39,11 @@ The files in this repo is the grub partition.
 
 ## References / Resources
 * Grub Manual
-[http://www.gnu.org/software/grub/manual/grub.html#Making-a-GRUB-bootable-CD\_002dRO]
+[http://www.gnu.org/software/grub/manual/grub.html#Making-a-GRUB-bootable-CD_002dRO]
 
 * Good guides to the grub commands. Really helpful. 
-http://members.iinet.net/~herman546/p20/GRUB2%20Bash%20Commands.html#grub-mkconfig
+[http://members.iinet.net/~herman546/p20/GRUB2%20Bash%20Commands.html#grub-mkconfig]
 
 * Getting a copy of the partition table. 
-http://blog.dhampir.no/content/save-and-restore-partition-tables-with-sfdisk 
+[http://blog.dhampir.no/content/save-and-restore-partition-tables-with-sfdisk]
 
