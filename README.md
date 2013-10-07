@@ -47,3 +47,6 @@ The files in this repo is the grub partition.
 * Getting a copy of the partition table. 
 [http://blog.dhampir.no/content/save-and-restore-partition-tables-with-sfdisk]
 
+## Todo
+* Update the config to use iso images. This makes it easier to upgrade the
+  versions later.  
