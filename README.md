@@ -48,5 +48,9 @@ The files in this repo is the grub partition.
 [http://blog.dhampir.no/content/save-and-restore-partition-tables-with-sfdisk]
 
 ## Todo
-* Update the config to use iso images. This makes it easier to upgrade the
-  versions later.  
+* use dd to write iso images directly to partitions. 
+* could probably just auto partition the usb stick
+* automate grub stuff: dd repo to first partition, and use cmd with config in
+  boot/grub/grub.cfg 
+* update doc/Readme with better descriptions, had some issues with grub cfg
+  after 4 years, but it mostly worked fine.
