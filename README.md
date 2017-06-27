@@ -29,13 +29,13 @@ The files in this repo is the grub partition.
 
 ## Useful commands and one-liners.
 * mount - edit - unmount : for testing
-  sudo mount /dev/sdd1 /media/usb && vi /media/usb/boot/grub/grub.cfg && sudo umount /media/usb
+  `sudo mount /dev/sdd1 /media/usb && vi /media/usb/boot/grub/grub.cfg && sudo umount /media/usb`
 * General mounting  
- sudo mount /dev/sdd3 /medias/usb2
+ `sudo mount /dev/sdd3 /medias/usb2`
 * Partitioning tool
- sudo gparted
+ `sudo gparted`
 * iso writer, dd or maybe cat can be used.
- sudo unetbootin 
+ `sudo unetbootin`
 
 ## References / Resources
 * Grub Manual
